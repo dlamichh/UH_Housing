@@ -13,10 +13,15 @@ import Navbar from './Navbar'
 function BookList(){
     return(
         <section className='booklist'>
+            <select onChange={e => this.setState({filter: e.target.value})}>
+                <option value="">All</option>
+                <option value="Internal">Internal</option>
+                <option value="External">External</option>
+            </select>
+            <br /><br />
         {books.map((book) => {
             const {img,title,author}= book;
-            return <Book key={book.id} book = {book}> </Book>;
-                
+            return <Book key={book.id} book = {book}> </Book>;     
         })}
         </section>
     );

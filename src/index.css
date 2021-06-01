@@ -20,6 +20,11 @@ img {
   height: 500px;
 }
 
+select {
+  width: 150px;
+  height: 80px;
+}
+
 .booklist {
   width: 90vw;
   max-width: 1170px;
