@@ -1,5 +1,5 @@
 export const books= [
-    {   id:1,
+    {   id:"Internal",
         img: 'https://www.uh.edu/housing/housing-options/cougar-village-1/cp12_ne-corner_sunset.jpg',
         title: 'Cougar Village I',
         author: '$3,390-$4,409 per semester'

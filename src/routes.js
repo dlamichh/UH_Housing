@@ -1,12 +1,6 @@
 import React from 'react';
-import ReactDom from 'react-dom'
-import'./index.css'
 import Booklist from './Home'
 import {BrowserRouter as Router, Route, Switch} from'react-router-dom';
-
-import {books} from './books';
-import Book from './Book';
-import {greeting} from './testing/testing';
 import CougarVillageI from './CougarVillageI';
 import CougarVillageII from './CougarVillageII';
 import MoodyTower from './MoodyTower';
@@ -16,7 +10,6 @@ import UniversityLofts from './UniversityLofts';
 import CullenOaks from './CullenOaks';
 import BayouOaks from './BayouOaks';
 import CambridgeOaks from './CambridgeOaks';
-import Navbar from './Navbar'
 
 const ReactRouterSetup=() => {
     return(

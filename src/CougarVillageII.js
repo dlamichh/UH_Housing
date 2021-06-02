@@ -2,10 +2,13 @@ import React from 'react';
 
 const CougarVillageII =() =>{
     return (
-        <div>
+        <div class="Title">
             <h4>Cougar Village II</h4>
+            <br/>
             <p>Cougar Village II is almost same as Cougar Village I. So, use CV I guide for pros, cons, tips and others. Here, we will be discussing about the difference between CV I and CV II.</p>
+            <br/>
             <h5>Difference between CV I and CV II.</h5>
+            <br/>
             <ul>
                 <li>CV I has full length mirrors to cover your closet, while CV2 closets are fully exposed.</li>
                 <li> CV I has keys for room while CV II has card swipe to unlock the door.</li>
